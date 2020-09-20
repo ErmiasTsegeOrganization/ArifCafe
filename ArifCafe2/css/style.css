@@ -253,9 +253,14 @@ a:hover {
 }
 
 .slide-bg-image {
-  padding: 240px 0px 250px;
-  background-size: cover;
+  padding: 240px 0px 250px ;
+  /* background-size: cover; */
+  background-size: auto;
   position: relative;
+  background-repeat: no-repeat;
+  background-color: #444;
+  /* padding-right: 400px; */
+  
 }
 
 .swiper-button-next {
@@ -377,8 +382,9 @@ a:hover {
   bottom: 6px;
   left: 0;
   width: 100%;
-  height: 35%;
+  height: 75%;
   background: #fd7d16;
+  opacity:0.5;
   -webkit-transform: scale3d(1, 0, 1);
           transform: scale3d(1, 0, 1);
   -webkit-transform-origin: 50% 100%;
@@ -411,6 +417,7 @@ ul.dropdown-menu {
 }
 ul.dropdown-menu > li.active > a {
   color: #fd7d16;
+  
 }
 ul.dropdown-menu > li > a,
 .navbar ul ul ul.dropdown-menu li .nav-link {
@@ -431,7 +438,7 @@ ul.dropdown-menu > li > a:hover,
 .navbar ul ul ul.dropdown-menu li .nav-link:hover {
   background: #fd7d16;
   color: #fff;
-}
+ }
 
 .dropdown-item:focus,
 .dropdown-item:hover {
