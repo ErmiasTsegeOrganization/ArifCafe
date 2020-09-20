@@ -1,6 +1,10 @@
 img{
     max-width: 100px;
 }
+.welcome-text
+{
+    margin-top: 200px !important;
+}
 .Header-wrapper{
     opacity: .7;
     padding: 0 !important;

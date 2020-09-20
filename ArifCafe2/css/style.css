@@ -254,12 +254,14 @@ a:hover {
 
 .slide-bg-image {
   padding: 240px 0px 250px ;
-  /* background-size: cover; */
-  background-size: auto;
-  position: relative;
+  background-size: contain;
+  
   background-repeat: no-repeat;
-  background-color: #444;
+  background-color:rgb(38, 42, 44);
+  
+  
   /* padding-right: 400px; */
+
   
 }
 
