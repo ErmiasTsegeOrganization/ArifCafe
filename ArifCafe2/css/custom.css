@@ -24,6 +24,8 @@ img{
     height: 500px !important;
   
 }
+
+
 @media(max-width:600px){
     .beyaynetu{
         background-image:url(../images/yelp/replacebeyaynetu.jpeg);
@@ -41,4 +43,6 @@ img{
 
         
     }
+   
+   
 }
